@@ -95,7 +95,7 @@ const Footer = () => {
           href="" 
           className=""
           >
-            <img src="/images/logo.svg" 
+            <img src={"/images/logo.svg" || "" }
             alt="Logo"
             width={40}
             height={40}
